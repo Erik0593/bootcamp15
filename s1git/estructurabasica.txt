@@ -1,0 +1,15 @@
+la estrucutra basica de una pagina web es la siguiente:
+
+<HTML> es el formato de la pagina web
+
+<Head> es el cabezal de la pagina web, es la parte superior de una pagina.
+
+<Body> es donde se muestra todo el contenido de la pagina.
+
+todo esto se conforma una estructura basica, al final todo se tiene que cerrar 
+
+<Body/>
+
+<Head/>
+
+<HTML/>
