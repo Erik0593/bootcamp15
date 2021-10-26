@@ -1,0 +1,28 @@
+.bg-color{
+    color: hsl(0, 0%, 95%)
+}
+
+.botton{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    width: 60%;
+    border:none
+}
+
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+    width: 20%;
+    display: inline-block;
+}
+
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+    width: 20%;
+    display: inline-block;
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    width: 20%;
+    display: inline-block;
+}
