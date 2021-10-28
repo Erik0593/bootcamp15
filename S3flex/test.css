@@ -39,3 +39,129 @@
     justify-content: space-evenly;
     background-color: yellow;
 }
+
+.flex-start-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    background-color: aqua;
+}
+
+.flex-end-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    background-color: chartreuse;
+}
+
+.center-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    background-color: darkred;
+}
+
+.space-between-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    background-color: deeppink;
+}
+
+.space-around-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    background-color: orangered;
+}
+
+.space-evenly-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    background-color: yellow;
+}
+
+.flex-start-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: aqua;
+}
+
+.flex-end-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: chartreuse;
+}
+
+.center-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: darkred;
+}
+
+.space-between-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: deeppink;
+}
+
+.space-around-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: orangered;
+}
+
+.space-evenly-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: yellow;
+}
+
+.flex-start-column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    background-color: aqua;
+}
+
+.flex-end-column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+    background-color: chartreuse;
+}
+
+.center-column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    background-color: darkred;
+}
+
+.space-between-column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    background-color: deeppink;
+}
+
+.space-around-column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    background-color: orangered;
+}
+
+.space-evenly-column-reverse{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    background-color: yellow;
+}

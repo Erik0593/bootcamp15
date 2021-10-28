@@ -1,0 +1,13 @@
+button{
+    WIDTH: 80%;
+    HEIGHT: 2.5REM;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+

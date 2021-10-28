@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: 'Poppins', sans-serif;
+    
+    
+    
+}
+   nav{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    
+   }
+    ol{
+        margin-top: .5rem;
+    }
+    p{
+        color: hsl(0, 0%, 70%);
+        margin: 2rem 0;
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        margin: 2rem;
+        padding-left: 5rem;
+    }
+    h1{
+        margin: .5rem;
+    }
+    section{
+    display: flex;
+    flex-direction: column;
+    }
+    article{
+        margin: 15px;
+    }
+    footer{
+        background-color: hsl(233, 26%, 24%);
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 1rem;
+    }
+    
+
+.list-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    display: inline-block;
+    padding: 2px;
+    color: hsl(0, 0%, 70%);
+    font-size: 18px;
+}
+
+.button-nav{
+    
+    margin: 10px;
+    border-radius: 2rem;
+    padding: .60rem .70rem ;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    background: linear-gradient(to bottom right, hsl(136, 27%, 39%),hsl(192, 70%, 51%));
+}
+
+.easy-img{
+    height: 4vh;
+    margin-top: .5rem;
+}
+
+.principal{
+    background-image: url(images/bg-intro-desktop.svg);
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0;
+}
+
+.next-gen{
+    
+    width: 30%;
+}
+
+.button-Nex{
+    width: 50%;
+}
+
+.why-ch{
+    width: 55%;
+}
+
+.h2-choose{
+    margin-bottom: 1rem;
+}
+
+.img-icon{
+    height: 10vh;
+    margin-bottom: 15px;
+}
+.section-ch{
+    flex-direction: row;
+    margin: 1rem;
+}
+
+.img-articles{
+    height: 25vh;
+    margin-bottom: 25px;
+}
+
+.img-social{
+    height: 5vh;
+}
+
+.list-footer{
+       
+    padding: 2px;
+    color: hsl(0, 0%, 70%);
+    font-size: 18px;
+}
+
+.column-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+
+.section-footer{
+    display: flex;
+    flex-direction: row;
+}
+
+.section-footer-button{
+    display: flex;
+    flex-direction: row;
+    justify-content:;
+}
+.section-images{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bgcolor-second-div{
+    background-color: hsl(0, 0%, 92%);
+    margin: 0%;
+}
+.bgcolor-div{
+    background-color: hsl(0, 0%, 98%);
+}
