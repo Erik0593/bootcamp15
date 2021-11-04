@@ -1,0 +1,46 @@
+.boton1{
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.element{
+    width: 100px;
+    height: 100px;
+    background-color: peru;
+}
+
+input:hover{
+    transition: .5s;
+    border-radius: 100%;
+}
+
+input-2:hover{
+    transition: .5s;
+    
+}
+
+input-3:hover{
+    transition: .5s;
+
+}
+
+bg-color{
+    background-color: gray;
+}
+
+
+button:hover{
+    transition: .1s;
+    background-color: peru;
+    color: black;
+}
+
+img{
+    width: 250px;
+}
+
+section{
+    height: 50%;
+}
+

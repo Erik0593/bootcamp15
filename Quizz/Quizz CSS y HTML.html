@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz CSS y HTML</title>
+    <link rel="stylesheet" href="Quizz CSS y HTML.css">
+</head>
+<body>
+    <main>
+        <section>
+            <div>
+                <h2> Escribe el selector de CSS correspondiente a los siguientes enunciados:</h2>
+                    <ul>
+                        <li> Selecciona todos los elementos del tipo párrafo que tengan la clase main-text: <mark> p.main-text </mark></li>
+                        <li> Selecciona todos los elementos de lista pares dentro de una lista no ordenada: <mark> ul li > nth-of-type:(even) </mark> </li>
+                        <li> Selecciona los links visitados dentro de una barra de navegación: <mark> nav a:visited </mark></li>
+                        <li> Selecciona la imagen que sea descendiente inmediato de una card sobre la que se coloca el puntero del mouse: <mark> div.card:hover > img </mark></li>
+                        <li> Selecciona la primer sección que se encuentre dentro de una etiqueta main: <mark> main > section:first-of-type </mark></li>
+                        <li> Selecciona cualquier elemento que incluya en su classlist el texto "btn": *[class*="btn"] </li>
+                        <li> Selecciona todos los botones excepto aquellos que sean el último hijo: button:not(:last-child) </li>
+                    </ul>               
+            </div>
+            <div>
+                <h2> Describe qué elemento será seleccionado con base en los siguientes selectores:</h2>
+                <ul>
+                    <li>header#main-header > ul    : <mark>Selecciona todas las listas desordenadas dentro de un header que tenagn el id= main-header</mark>  </li>
+                    <li>aside ul li:not(even) :  <mark>Selecciona todos los elementos par de una lista dentro de una lista desordenada dentro de un aside</mark>  </li>
+                    <li>section#posts article:nth-of-type( odd ) : <mark>Selecciona todos los articulos impar dentro de section que tenga el id= post </mark></li>
+                    <li>table tr td : <mark></mark></li>
+                    <li>footer > ul li a.nav-link  : <mark>Selecciona todos los anchor que tenga una clase .nav-link dentro de una lista que esta dentro de una lista desordenada y que sea directo del footer</mark> </li>
+                    <li>p span.text-white : <mark>Selecciona un contenedor que tenga como clase .text-white dentro de un parrafo</mark></li>
+                    <li>section.bg-dark p.text-white span : <mark>selecciona un contenedor dentro de un parrafo con una clase .text-withe dentro de una seccion que tenga como clase .bg-dark</mark></li>
+                </ul>
+            </div>
+            <div>
+                <h2>Escribir el código necesario para crear los siguientes componentes:</h2>
+                <ul>
+                    <li>Un botón cuyo color orginal sea azul, texto blanco, y al poner el mouse sobre de él su color de fondo cambie a peru y el texto sea negro ( el botón no debe tener borde en ninguno de ambos estados )</li>
+                    <button class="boton1">Da click aqui</button>
+                    <li>una sección que mida el ancho completo de la pantalla, la mitad de la pantalla de alto, y que dentro tenga dos imágenes cuales quiera, ambas con espacio igual entre ellas y entre los bordes de la sección</li>
+                </ul>
+                <section>
+                        <img src="img/mati.PNG" alt="">
+                        <img src="img/pato.jpg" alt="">
+                </section>
+            </div>
+            <section>
+                <ul>
+                <li>
+                Crear 3 inputs de tipo radio, con las etiquetas "círculo", "cuadrado", "rectangulo", también crear un elemento que cambie de forma dependiendo del radio que esté seleccionado ( si se selecciona "círculo", el elemento debe convertirse en un círculo, y así respectivamente).
+                </li>
+                </ul>
+            <div class="element"></div>
+            <input type="radio" name="Shape" id="Circulo" class="input"> Circulo
+            <input type="radio" name="Shape" id="Cuadrado" class="input-2"> Cuadrado 
+            <input type="radio" name="Shape" id="Rectangulo" class="input-3"> Rectangulo
+            </section>
+        </section>
+    </main>
+</body>
+</html>

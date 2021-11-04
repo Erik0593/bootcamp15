@@ -1,0 +1,26 @@
+.element{
+    width: 100px;
+    height: 100px;
+    background-color: peru;
+}
+
+.element:hover{
+  border-radius: 100%;
+}
+
+#test-list li:first-of-type{
+    color: peru
+}
+
+#test-list li:last-of-type{
+    color: navy;
+}
+
+#test-list li:nth-of-type(3n){
+    text-decoration: underline;
+}
+
+#test-list li:nth-of-type(3n){
+    text-transform: uppercase;
+}
+

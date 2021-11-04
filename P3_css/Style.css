@@ -60,7 +60,7 @@
     
     margin: 10px;
     border-radius: 2rem;
-    padding: .60rem .70rem ;
+    padding: 0.5rem .60rem ;
     border: none;
     color: hsl(0, 0%, 100%);
     font-size: 18px;
@@ -136,7 +136,7 @@
 .section-footer-button{
     display: flex;
     flex-direction: row;
-    justify-content:;
+    justify-content:flex-end;
 }
 .section-images{
     display: flex;
@@ -150,4 +150,9 @@
 }
 .bgcolor-div{
     background-color: hsl(0, 0%, 98%);
+}
+
+.img-desk{
+    position: relative;
+    left:200%
 }

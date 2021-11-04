@@ -1,0 +1,116 @@
+/*
+
+primario: peru
+secundario: slategray
+error: tomato
+aviso: orange
+
+*/
+@mixin custom-wrapper($border-color){
+    border: 1px solid $border-color;
+    border-radius: .5rem;
+    box-shadow: 3px 3px 5px 5px #dadada;
+    padding: 1rem;
+}
+
+$colors:(
+    "primario":navy,
+    "secundario": green,
+    "error": red,
+    "aviso": yellow
+);
+
+@each $type, $color in $colors {
+    .bg-#{$type}{
+        background-color: $color;
+    }
+
+    .text-color-#{$type}{
+        color:$color;  
+    }
+
+    .message-box-#{$type}{
+        @include custom-wrapper($color);
+    }
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 80px;
+}
+
+nav{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color:#ddd;
+    height: 70px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    ul{
+        list-style: none;
+        padding: 0;
+        display: flex;
+        li{
+            padding: .5rem 1rem;
+            transition: all 1s ease;
+            a{
+                color: unset;
+                text-decoration: none;
+            }
+            &:hover{
+                color: white;
+                background-color: #333;
+            }
+        }
+    }
+}
+
+.d-flex{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.card{
+    @include custom-wrapper(#333);
+    img{
+        width: 50%;
+        margin:0 auto;
+        border-radius: 100%;
+    }
+    .card-body{
+        h2{
+            font-size: 2rem;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        p{
+            font-size: 1rem;
+        }
+    }
+}
+
+.post{
+    @include custom-wrapper(#333);
+    img{
+        width: 50px;
+        border-radius: 100%;
+    }
+    p{
+        font-family: 'Courier New', Courier, monospace;
+    }
+}
+
+.post-detail{
+    @include custom-wrapper(#333)
+}
