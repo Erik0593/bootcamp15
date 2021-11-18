@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.circulo{
+    width: 100px;
+    height: 100px;
+    background-color: black;
+}
+
+.imagenes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+img{
+    margin: 1rem;
+}
+
+@media only screen and ( min-width: 768px ){
+    .circulo{
+        background-color: red;
+        border-radius: 100%;
+
+    }
+    .imagenes{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+    }
+    img{
+        margin: 2rem;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .rectangulo{
+        background-color: blue;
+        border-radius: 0;
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        
+    }
+}

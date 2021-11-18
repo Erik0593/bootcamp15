@@ -141,6 +141,7 @@ nav ul li:hover {
   -webkit-box-shadow: 3px 3px 5px 5px #dadada;
           box-shadow: 3px 3px 5px 5px #dadada;
   padding: 1rem;
+  margin: 0px 1rem 1rem 1 rem;
 }
 
 .card img {

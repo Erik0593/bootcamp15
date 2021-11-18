@@ -82,8 +82,14 @@ nav{
     flex-direction: column;
 }
 
+.card-wrapper{
+
+}
+
 .card{
     @include custom-wrapper(#333);
+    margin: 0px 1rem 1rem 1 rem;
+
     img{
         width: 50%;
         margin:0 auto;
